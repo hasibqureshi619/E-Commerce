@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url('./media/old-camera-notebook-laptop-with-blue-pencil-cup-cappuccino-white-background_23-2147979092.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+    padding: 10px;
+    font-size: large;
+    font-style: italic;
+}
+
+.submit{
+    border-radius: 5px;
+    background-color: lightskyblue;
+    font-style: italic;
+    padding: 5px;
+    font-size: large;
+    margin-top: 20px;
+    height: 40px;
+    width: 70px;
+    transition-duration: 200ms;
+}
+.submit:hover{
+    color: azure;
+    background-color: black;
+    transform: scale(1.2);
+}
+.butclass{
+    margin-top: -133px;
+    width: 100%;
+}
+.but{
+    margin-left: 150px;
+}
+table{
+    font-size: larger;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+form{
+    display: flex;   
+    align-items: center;
+    /* margin-right: 400px; */
+    padding: 70px;
+    margin-top: 10px;
+}
+span{
+    color: red;
+    font-size: medium;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.pop{
+    visibility: hidden;
+    transform: scale(1.1);
+}
+.popup{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-style: italic;
+    font-size: larger;
+    font-family:sans-serif;
+    font-weight: 600;
+    border: 2px solid rgb(134, 224, 0);
+    border-radius: 30px;
+    position: absolute;
+    top: 20%;
+    left: 5.3%;
+    justify-content:center;
+    align-items:center;
+    width: 52%;
+    height: 72%;
+    background-color: white;
+    transform: scale(1.1);
+    transition-duration: 1000ms;
+}

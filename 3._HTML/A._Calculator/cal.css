@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculato{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculato .for .button{
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: 0px;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    font-size: 20px;
+    color: #ffff;
+    cursor: pointer;
+    margin: 10px;
+    transition-duration:300ms;
+}
+.calculato .for .button:hover{
+    background-color: yellowgreen;
+    color: black;
+    transform: scale(1.2);
+}
+.for .display input{
+    text-align: right;
+    font-size: 45px;
+    width: 230px;
+    margin-left: 10px;
+    height: 65px;
+}
+.display{
+    display: flex;
+    align-items: center;
+    gap: 8.1px;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    gap: -50px;
+}
